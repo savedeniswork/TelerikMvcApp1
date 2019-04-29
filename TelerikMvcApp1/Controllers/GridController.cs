@@ -20,7 +20,7 @@ namespace TelerikMvcApp1.Controllers
 				ShipName = "ShipName " + i,
 				ShipCity = "ShipCity " + i
 			});
-            var result2 = Enumerable.Range(0, 10).Select(i => new OrderViewModel
+            var result2 = Enumerable.Range(0, 5).Select(i => new OrderViewModel
             {
                 OrderID = 123567,
                 Freight = i * 10,
